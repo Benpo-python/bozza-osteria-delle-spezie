@@ -1,0 +1,683 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Osteria delle Spezie — Cucina casalinga e terrazza sul Golfo, Fabiano Alto (La Spezia)</title>
+<meta name="description" content="Osteria delle Spezie a Fabiano Alto, sopra La Spezia: cucina casalinga di mare, cozze, primi di pesce e una terrazza panoramica sul Golfo dei Poeti. A cena da martedì a domenica. Prenota su WhatsApp.">
+<meta name="theme-color" content="#F6F0E6">
+<link rel="icon" href="img/logo.webp" type="image/webp">
+<link rel="preload" href="fonts/newsreader.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/Inter-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="img/terrazza.webp" as="image">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Restaurant","name":"Osteria delle Spezie","description":"Osteria a conduzione familiare con cucina tipica locale e regionale, specialità cozze, terrazza panoramica sul Golfo dei Poeti.","servesCuisine":["Ligure","Cucina tradizionale","Pesce"],"acceptsReservations":"True","telephone":"+39 0187 736135","address":{"@type":"PostalAddress","streetAddress":"Via Sant'Andrea 57","postalCode":"19123","addressLocality":"Fabiano Alto, La Spezia","addressRegion":"SP","addressCountry":"IT"},"geo":{"@type":"GeoCoordinates","latitude":44.09508,"longitude":9.80614},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],"opens":"19:30","closes":"22:30"}],"sameAs":["https://www.facebook.com/Osteria-delle-Spezie-1402152920021262/"]}
+</script>
+<script>document.documentElement.className="js"</script>
+<style>
+@font-face{font-family:"Newsreader";src:url(fonts/newsreader.woff2) format("woff2");font-weight:450;font-style:normal;font-display:swap}
+@font-face{font-family:"Newsreader";src:url(fonts/newsreader-italic.woff2) format("woff2");font-weight:450;font-style:italic;font-display:swap}
+@font-face{font-family:"Inter";src:url(fonts/Inter-var.woff2) format("woff2");font-weight:400 600;font-style:normal;font-display:swap}
+
+:root{
+  --carta:#F6F0E6;--carta-2:#ECE2D1;--ink:#22181A;--mut:#665759;--linea:rgba(34,24,26,.15);
+  --rosso:#8E1F27;--rosso-d:#6C161C;--oro:#D9A441;--oro-c:#F1D08A;--mare:#2B5C77;--mare-c:#A9CCDD;--notte:#1A1518;
+  --serif:"Newsreader",Georgia,"Times New Roman",serif;--sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --pad:clamp(20px,5vw,56px);--sez:clamp(76px,10vw,140px);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;scroll-padding-top:84px}
+body{font-family:var(--sans);font-size:16.5px;line-height:1.62;color:var(--ink);background:var(--carta);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}
+svg{display:block}
+a{color:inherit}
+h1,h2,h3{font-family:var(--serif);font-weight:450;line-height:1.06;letter-spacing:-.018em}
+h2{font-size:clamp(2.2rem,1.4rem + 3.2vw,3.9rem);max-width:16ch}
+h2 em,h1 em{font-style:italic;color:var(--rosso)}
+.scuro h2 em{color:var(--oro-c)}
+:focus-visible{outline:3px solid var(--rosso);outline-offset:3px}
+.scuro :focus-visible{outline-color:var(--oro-c)}
+.wrap{max-width:1240px;margin:0 auto;padding:0 var(--pad)}
+.salta{position:absolute;left:12px;top:-60px;background:var(--rosso);color:#fff;padding:12px 18px;z-index:50}
+.salta:focus{top:12px}
+.sez{padding:var(--sez) 0}
+.occhiello{font:600 11.5px/1.3 var(--sans);letter-spacing:.24em;text-transform:uppercase;color:var(--rosso);display:flex;align-items:center;gap:14px;margin-bottom:18px}
+.occhiello::before{content:"";width:30px;height:1px;background:currentColor;flex:none;opacity:.7}
+.scuro .occhiello{color:var(--oro-c)}
+.intro{font-size:clamp(1.04rem,.98rem + .3vw,1.2rem);color:var(--mut);max-width:34em;margin-top:18px}
+.scuro .intro{color:rgba(246,240,230,.78)}
+
+/* fascia bozza */
+.bnw-fascia{background:#15161A;color:#fff;font:400 13.5px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif;text-align:center;padding:9px 16px;letter-spacing:0}
+.bnw-fascia a{color:#fff;font-weight:600;text-decoration:underline;text-underline-offset:2px;display:inline-block;padding:12px 6px;margin:-12px 0}
+.bnw-fascia a:focus-visible{outline:3px solid #7fd3b0;outline-offset:2px}
+
+/* pulsanti */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.6em;min-height:52px;padding:0 26px;border:1px solid var(--rosso);background:var(--rosso);color:#fff;font:600 14px/1.2 var(--sans);letter-spacing:.02em;text-decoration:none;border-radius:999px;cursor:pointer;transition:background .25s,color .25s,border-color .25s,transform .25s}
+.btn:hover{background:var(--rosso-d);border-color:var(--rosso-d)}
+.btn:active{transform:translateY(1px)}
+.btn.vuoto{background:transparent;color:var(--ink);border-color:rgba(34,24,26,.35)}
+.btn.vuoto:hover{border-color:var(--ink);background:rgba(34,24,26,.04)}
+.btn.chiaro{background:var(--carta);border-color:var(--carta);color:var(--ink)}
+.btn.chiaro:hover{background:#fff;border-color:#fff}
+.btn.vetro{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.55);color:#fff;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.btn.vetro:hover{background:rgba(255,255,255,.2);border-color:#fff}
+.btn svg{width:18px;height:18px;flex:none}
+
+/* barra */
+.barra{position:sticky;top:0;z-index:30;background:rgba(246,240,230,.93);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid var(--linea)}
+.barra .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:70px}
+.logo{text-decoration:none;display:flex;align-items:center;gap:12px;min-height:44px}
+.logo svg{width:38px;height:38px;color:var(--rosso);flex:none}
+.logo b{font-family:var(--serif);font-weight:450;font-size:1.4rem;letter-spacing:-.01em;line-height:1;display:block;white-space:nowrap}
+.logo small{font:600 9.5px/1 var(--sans);letter-spacing:.24em;text-transform:uppercase;color:var(--mut);display:block;margin-top:5px;white-space:nowrap}
+.menu{display:none;gap:28px;list-style:none}
+.menu a{font-size:.93rem;text-decoration:none;display:inline-flex;align-items:center;min-height:44px;position:relative}
+.menu a::after{content:"";position:absolute;left:0;right:0;bottom:9px;height:1px;background:var(--rosso);transform:scaleX(0);transform-origin:left;transition:transform .3s}
+.menu a:hover::after{transform:scaleX(1)}
+.barra .btn{min-height:44px;padding:0 20px;font-size:13.5px}
+
+/* hero */
+.hero{position:relative;min-height:calc(100svh - 108px);display:flex;align-items:flex-end;color:#fff;background:var(--notte);overflow:hidden}
+.hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 40%;transform:scale(1.04);animation:respiro 18s ease-out forwards}
+@keyframes respiro{to{transform:scale(1)}}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,14,16,.25) 0,rgba(20,14,16,.15) 30%,rgba(20,14,16,.85) 100%),linear-gradient(90deg,rgba(20,14,16,.55) 0,rgba(20,14,16,0) 70%)}
+.hero .wrap{position:relative;z-index:1;width:100%;padding-top:120px;padding-bottom:clamp(36px,6vw,72px)}
+.hero .occhiello{color:var(--oro-c)}
+.hero h1{font-size:clamp(2.9rem,1.2rem + 6.4vw,6.4rem);line-height:.98;letter-spacing:-.028em;max-width:11ch}
+.hero h1 em{color:var(--oro-c)}
+.hero .sotto{font-size:clamp(1.05rem,.98rem + .35vw,1.25rem);color:rgba(255,255,255,.88);max-width:31em;margin-top:20px}
+.azioni{display:flex;flex-wrap:wrap;gap:10px 12px;margin-top:28px}
+.stato{display:inline-flex;align-items:center;gap:10px;margin-top:26px;font-size:.93rem;color:rgba(255,255,255,.88);background:rgba(20,14,16,.45);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.16);padding:9px 16px 9px 13px;border-radius:999px}
+.punto{width:9px;height:9px;border-radius:50%;background:#9aa0a6;flex:none}
+.stato.aperto .punto{background:#6fd08c;box-shadow:0 0 0 0 rgba(111,208,140,.6);animation:pulsa 2.2s infinite}
+.stato.chiuso .punto{background:#e0866f}
+@keyframes pulsa{70%{box-shadow:0 0 0 9px rgba(111,208,140,0)}100%{box-shadow:0 0 0 0 rgba(111,208,140,0)}}
+.stato b{color:#fff;font-weight:600}
+
+/* fascia valori */
+.valori{border-bottom:1px solid var(--linea)}
+.valori ul{list-style:none;display:grid}
+.valori li{display:flex;gap:16px;align-items:flex-start;padding:24px 0}
+.valori li+li{border-top:1px solid var(--linea)}
+.valori svg{width:34px;height:34px;color:var(--rosso);flex:none;margin-top:2px}
+.valori b{font-family:var(--serif);font-weight:450;font-size:1.28rem;display:block;line-height:1.2}
+.valori span{color:var(--mut);font-size:.95rem}
+
+/* menù */
+.menu-testa{display:grid;gap:24px;align-items:end}
+.lavagna{background:var(--notte);color:var(--carta);border-radius:6px;padding:24px 26px;position:relative;overflow:hidden}
+.lavagna::before{content:"";position:absolute;inset:8px;border:1px solid rgba(241,208,138,.28);border-radius:3px;pointer-events:none}
+.lavagna small{font:600 11px/1.2 var(--sans);letter-spacing:.22em;text-transform:uppercase;color:var(--oro-c)}
+.lavagna p{font-family:var(--serif);font-style:italic;font-size:1.45rem;line-height:1.2;margin-top:8px}
+.lavagna span{display:block;font-size:.9rem;color:rgba(246,240,230,.7);margin-top:6px}
+.etichetta{display:inline-flex;align-items:center;gap:8px;font:600 10.5px/1.3 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--rosso);background:rgba(142,31,39,.08);border:1px dashed rgba(142,31,39,.45);padding:8px 12px;border-radius:6px;margin-top:22px}
+.schede{display:flex;gap:6px;overflow-x:auto;margin:clamp(30px,4vw,46px) calc(var(--pad)*-1) 0;padding:0 var(--pad) 2px;scrollbar-width:none;border-bottom:1px solid var(--linea)}
+.schede::-webkit-scrollbar{display:none}
+.schede button{flex:none;font:500 15px/1 var(--sans);color:var(--mut);background:none;border:0;border-bottom:2px solid transparent;padding:0 14px;min-height:52px;cursor:pointer;margin-bottom:-1px;transition:color .2s,border-color .2s}
+.schede button:hover{color:var(--ink)}
+.schede button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--rosso);font-weight:600}
+.pannello{padding-top:clamp(28px,4vw,44px)}
+.pannello[hidden]{display:none}
+.piatti{list-style:none;display:grid;gap:0 clamp(32px,5vw,72px)}
+.piatto{padding:20px 0;border-bottom:1px dashed rgba(34,24,26,.22)}
+.piatto .riga{display:flex;align-items:baseline;gap:12px}
+.piatto h3{font-size:1.32rem;line-height:1.2;letter-spacing:-.01em}
+.piatto .pun{flex:1;border-bottom:1px dotted rgba(34,24,26,.35);transform:translateY(-5px);min-width:20px}
+.piatto .prezzo{font:500 12px/1 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--mut);white-space:nowrap}
+.piatto p{color:var(--mut);font-size:.95rem;margin-top:4px;max-width:36em}
+.piatto p q{font-style:italic;color:var(--ink)}
+.tag{display:inline-block;font:600 10.5px/1 var(--sans);letter-spacing:.08em;text-transform:uppercase;padding:4px 7px;border-radius:3px;margin-left:8px;vertical-align:3px;white-space:nowrap}
+.tag.c{background:rgba(142,31,39,.1);color:var(--rosso)}
+.tag.m{background:rgba(43,92,119,.12);color:var(--mare)}
+.note-menu{display:flex;flex-wrap:wrap;gap:8px 28px;margin-top:30px;font-size:.88rem;color:var(--mut)}
+.note-menu b{color:var(--ink);font-weight:600}
+
+/* terrazza */
+.terrazza{background:var(--carta-2)}
+.terrazza .wrap{display:grid;gap:clamp(36px,6vw,80px);align-items:center}
+.foto-doppia{position:relative;padding-bottom:18%}
+.foto-doppia figure:first-child img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:4px}
+.foto-doppia figure:last-child{position:absolute;right:-4%;bottom:0;width:52%;border:8px solid var(--carta-2);border-radius:6px;overflow:hidden;box-shadow:0 24px 50px -24px rgba(34,24,26,.5)}
+.foto-doppia figure:last-child img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.terrazza blockquote{font-family:var(--serif);font-style:italic;font-size:clamp(1.35rem,1.1rem + 1vw,1.85rem);line-height:1.3;margin-top:30px;padding-left:22px;border-left:2px solid var(--oro)}
+.terrazza cite{display:block;font:500 13px/1.4 var(--sans);font-style:normal;letter-spacing:.04em;color:var(--mut);margin-top:12px}
+.numeri{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:36px;padding-top:26px;border-top:1px solid var(--linea)}
+.numeri b{font-family:var(--serif);font-weight:450;font-size:clamp(2rem,1.5rem + 1.6vw,2.8rem);line-height:1;display:block;color:var(--rosso)}
+.numeri span{font-size:.86rem;color:var(--mut);display:block;margin-top:6px;line-height:1.35}
+
+/* galleria */
+.galleria{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-top:clamp(34px,5vw,54px)}
+.galleria figure{position:relative;overflow:hidden;border-radius:4px;background:var(--carta-2)}
+.galleria img{width:100%;height:100%;object-fit:cover;aspect-ratio:1;transition:transform .9s cubic-bezier(.2,.7,.2,1)}
+.galleria figure:hover img{transform:scale(1.04)}
+.galleria figure:first-child{grid-column:span 2}
+.galleria figure:first-child img{aspect-ratio:3/2}
+.galleria figcaption{position:absolute;left:10px;bottom:10px;background:rgba(246,240,230,.92);font-size:.78rem;font-weight:500;padding:5px 10px;border-radius:999px}
+
+/* recensioni */
+.voto{display:flex;align-items:center;gap:16px;margin-top:26px;flex-wrap:wrap}
+.voto .num{font-family:var(--serif);font-size:3.2rem;line-height:1}
+.stelle{display:flex;gap:2px;color:var(--oro)}
+.stelle svg{width:18px;height:18px}
+.voto small{display:block;color:var(--mut);font-size:.88rem}
+.recensioni{display:grid;gap:14px;margin-top:clamp(34px,5vw,50px)}
+.rec{background:#fffaf3;border:1px solid var(--linea);border-radius:6px;padding:26px 24px 22px;display:flex;flex-direction:column}
+.rec .fonte{font:600 10.5px/1 var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--mare)}
+.rec blockquote{font-family:var(--serif);font-size:1.18rem;line-height:1.42;margin-top:14px;flex:1}
+.rec footer{display:flex;align-items:center;gap:12px;margin-top:20px;padding-top:16px;border-top:1px solid var(--linea);font-size:.88rem;color:var(--mut)}
+.rec footer b{color:var(--ink);font-weight:600;display:block}
+.iniz{width:38px;height:38px;border-radius:50%;display:grid;place-items:center;font:600 14px/1 var(--sans);color:#fff;flex:none}
+.temi{display:flex;flex-wrap:wrap;gap:8px;margin-top:22px;list-style:none}
+.temi li{font-size:.86rem;border:1px solid var(--linea);background:#fffaf3;padding:7px 12px;border-radius:999px;color:var(--mut)}
+.temi li b{color:var(--ink);font-weight:600}
+
+/* prenota */
+.prenota{background:var(--notte);color:var(--carta);position:relative;overflow:hidden}
+.prenota .wrap{display:grid;gap:clamp(36px,6vw,80px);position:relative}
+.prenota-foto{position:absolute;inset:0;opacity:.18}
+.prenota-foto img{width:100%;height:100%;object-fit:cover;filter:grayscale(.3)}
+.prenota .contatti{list-style:none;margin-top:30px;display:grid;gap:4px}
+.prenota .contatti a{display:flex;align-items:center;gap:14px;min-height:52px;text-decoration:none;font-size:1.05rem}
+.prenota .contatti svg{width:22px;height:22px;color:var(--oro-c);flex:none}
+.prenota .contatti small{display:block;font-size:.82rem;color:rgba(246,240,230,.6)}
+form.modulo{background:var(--carta);color:var(--ink);border-radius:8px;padding:clamp(22px,4vw,36px);box-shadow:0 40px 80px -40px rgba(0,0,0,.6)}
+.modulo h3{font-size:1.7rem}
+.modulo .campi{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px}
+.campo{display:flex;flex-direction:column;gap:6px;min-width:0}
+.campo.largo{grid-column:1/-1}
+.campo label,.campo legend{font:600 12px/1.2 var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--mut)}
+.campo input,.campo select,.campo textarea{font:400 16px/1.3 var(--sans);color:var(--ink);background:#fff;border:1px solid rgba(34,24,26,.22);border-radius:6px;min-height:50px;padding:12px 14px;width:100%;-webkit-appearance:none;appearance:none}
+.campo select{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' fill='none' stroke='%2322181A' stroke-width='1.6'%3E%3Cpath d='M1 1.5l5 5 5-5'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 14px center;padding-right:36px}
+.campo textarea{min-height:84px;resize:vertical}
+.campo input:focus,.campo select:focus,.campo textarea:focus{outline:2px solid var(--rosso);outline-offset:0;border-color:var(--rosso)}
+.persone{border:0;min-width:0}
+.persone legend{margin-bottom:8px;padding:0}
+.persone .scelte{display:flex;gap:6px;flex-wrap:wrap}
+.persone label{position:relative}
+.persone input{position:absolute;opacity:0;width:1px;height:1px}
+.persone span{display:grid;place-items:center;min-width:46px;height:46px;padding:0 8px;border:1px solid rgba(34,24,26,.22);border-radius:6px;background:#fff;font:500 15px/1 var(--sans);cursor:pointer;transition:background .2s,color .2s,border-color .2s}
+.persone input:checked+span{background:var(--ink);color:#fff;border-color:var(--ink)}
+.persone input:focus-visible+span{outline:3px solid var(--rosso);outline-offset:2px}
+.modulo .btn{width:100%;margin-top:20px}
+.modulo .info{font-size:.84rem;color:var(--mut);margin-top:12px;text-align:center}
+.errore{color:var(--rosso);font-size:.88rem;margin-top:10px;text-align:center;min-height:1em}
+
+/* feste */
+.gruppi{border-top:1px solid var(--linea);border-bottom:1px solid var(--linea)}
+.gruppi .wrap{display:grid;gap:22px;align-items:center;padding-top:clamp(44px,6vw,70px);padding-bottom:clamp(44px,6vw,70px)}
+.gruppi h2{font-size:clamp(1.8rem,1.3rem + 2vw,2.7rem);max-width:22ch}
+.gruppi p{color:var(--mut);margin-top:10px;max-width:38em}
+.gruppi ul{list-style:none;display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.gruppi li{font-size:.86rem;font-weight:500;padding:7px 12px;border-radius:999px;background:rgba(43,92,119,.1);color:var(--mare)}
+
+/* orari e dove */
+.dove .wrap{display:grid;gap:clamp(36px,6vw,80px)}
+.orari{list-style:none;margin-top:28px;border-top:1px solid var(--linea)}
+.orari li{display:flex;justify-content:space-between;gap:16px;padding:14px 10px;border-bottom:1px solid var(--linea);font-size:.98rem}
+.orari li span:last-child{color:var(--mut);text-align:right}
+.orari li.oggi-r{background:rgba(217,164,65,.2);border-radius:4px;font-weight:600}
+.orari li.oggi-r span:last-child{color:var(--ink)}
+.orari li.oggi-r span:first-child::after{content:"oggi";font:600 10px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;background:var(--rosso);color:#fff;padding:3px 6px;border-radius:3px;margin-left:10px;vertical-align:2px}
+.nota{font-size:.86rem;color:var(--mut);margin-top:14px}
+.mappa{position:relative;border-radius:6px;overflow:hidden;min-height:380px;background:var(--carta-2);display:flex;align-items:flex-end}
+.mappa>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.mappa::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(20,14,16,0) 25%,rgba(20,14,16,.55) 55%,rgba(20,14,16,.88));z-index:1}
+.mappa .box{position:relative;z-index:2;color:#fff;padding:26px;width:100%}
+.mappa address{font-style:normal;font-family:var(--serif);font-size:1.6rem;line-height:1.2}
+.mappa p{font-size:.92rem;color:rgba(255,255,255,.8);margin:6px 0 18px}
+.mappa .bottoni{display:flex;flex-wrap:wrap;gap:10px}
+.mappa iframe{position:absolute;inset:0;width:100%;height:100%;border:0;z-index:3}
+.come{list-style:none;margin-top:26px;display:grid;gap:12px}
+.come li{display:flex;gap:14px;font-size:.95rem;color:var(--mut)}
+.come svg{width:22px;height:22px;color:var(--rosso);flex:none;margin-top:1px}
+.come b{color:var(--ink);font-weight:600}
+
+/* piede */
+.piede{background:var(--notte);color:rgba(246,240,230,.75);padding:clamp(54px,7vw,84px) 0 calc(36px + env(safe-area-inset-bottom));font-size:.92rem}
+.piede .wrap{display:grid;gap:34px}
+.piede .logo{color:var(--carta)}
+.piede .logo svg{color:var(--oro-c)}
+.piede .logo small{color:rgba(246,240,230,.55)}
+.piede h3{font:600 11px/1.2 var(--sans);letter-spacing:.2em;text-transform:uppercase;color:var(--oro-c);margin-bottom:12px}
+.piede ul{list-style:none;display:grid;gap:2px}
+.piede ul a{text-decoration:none;display:inline-flex;min-height:36px;align-items:center}
+.piede ul a:hover{color:#fff}
+.social{display:flex;gap:10px;margin-top:18px}
+.social a{width:44px;height:44px;border:1px solid rgba(246,240,230,.25);border-radius:50%;display:grid;place-items:center}
+.social a:hover{border-color:var(--oro-c);color:#fff}
+.social svg{width:18px;height:18px}
+.fine{border-top:1px solid rgba(246,240,230,.14);padding-top:22px;font-size:.8rem;color:rgba(246,240,230,.5);display:flex;flex-wrap:wrap;gap:6px 22px}
+
+/* barra mobile */
+.rapida{position:fixed;left:0;right:0;bottom:0;z-index:40;display:grid;grid-template-columns:1fr 1.3fr 1fr;background:rgba(26,21,24,.96);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);padding:8px 8px calc(8px + env(safe-area-inset-bottom));gap:6px;transform:translateY(110%);transition:transform .35s ease}
+.rapida.su{transform:none}
+.rapida a{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;min-height:52px;color:var(--carta);text-decoration:none;font:500 12px/1 var(--sans);border-radius:8px}
+.rapida a svg{width:20px;height:20px}
+.rapida a.pri{background:var(--rosso);font-weight:600;font-size:13px}
+
+/* comparsa */
+.js .rv{opacity:0;transform:translateY(22px);transition:opacity .8s ease,transform .8s cubic-bezier(.2,.7,.2,1)}
+.js .rv.in{opacity:1;transform:none}
+
+@media (min-width:640px){
+  .valori ul{grid-template-columns:repeat(3,1fr);gap:28px}
+  .valori li+li{border-top:0}
+  .galleria{grid-template-columns:repeat(3,1fr)}
+  .recensioni{grid-template-columns:repeat(2,1fr)}
+}
+@media (min-width:900px){
+  .menu{display:flex}
+  .menu-testa{grid-template-columns:1.5fr 1fr}
+  .piatti{grid-template-columns:1fr 1fr}
+  .terrazza .wrap{grid-template-columns:1fr 1.05fr}
+  .galleria{grid-template-columns:repeat(4,1fr);grid-auto-rows:1fr}
+  .galleria figure:first-child{grid-column:span 2;grid-row:span 2}
+  .galleria figure:first-child img{aspect-ratio:auto}
+  .recensioni{grid-template-columns:repeat(3,1fr)}
+  .prenota .wrap{grid-template-columns:1fr 1.05fr;align-items:center}
+  .dove .wrap{grid-template-columns:1fr 1.15fr;align-items:start}
+  .mappa{min-height:100%}
+  .gruppi .wrap{grid-template-columns:1fr auto}
+  .piede .wrap{grid-template-columns:1.5fr 1fr 1fr 1fr}
+  .fine{grid-column:1/-1}
+  .rapida{display:none}
+}
+@media (max-width:899px){
+  .piede{padding-bottom:calc(110px + env(safe-area-inset-bottom))}
+}
+@media (max-width:420px){
+  .modulo .campi{grid-template-columns:1fr}
+  .barra .btn{padding:0 16px}
+  .logo b{font-size:1.18rem}
+  .logo small{letter-spacing:.14em}
+  .logo svg{width:32px;height:32px}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+  .js .rv{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<a class="salta" href="#contenuto">Salta al contenuto</a>
+<div class="bnw-fascia">Bozza preparata per Osteria delle Spezie da <a href="https://labottegadelweb.it">La bottega del web</a>. Non ancora online.</div>
+
+<header class="barra">
+  <div class="wrap">
+    <a class="logo" href="#" aria-label="Osteria delle Spezie, torna su">
+      <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="20" cy="20" r="18.5"/><path d="M8 25c2.4-1.5 4.8-1.5 7.2 0s4.8 1.5 7.2 0 4.8-1.5 7.2 0 2.4 1.2 2.4 1.2"/><path d="M9 21l6-8 4 5 3-3 9 6"/><circle cx="27" cy="12" r="2"/></svg>
+      <span><b>Osteria delle Spezie</b><small>Fabiano Alto · La Spezia</small></span>
+    </a>
+    <nav aria-label="Principale">
+      <ul class="menu">
+        <li><a href="#piatti">I piatti</a></li>
+        <li><a href="#terrazza">La terrazza</a></li>
+        <li><a href="#recensioni">Dicono di noi</a></li>
+        <li><a href="#dove">Orari e dove</a></li>
+      </ul>
+    </nav>
+    <a class="btn" href="#prenota">Prenota</a>
+  </div>
+</header>
+
+<main id="contenuto">
+<section class="hero" aria-labelledby="titolo">
+  <img src="img/terrazza.webp" width="799" height="796" alt="La terrazza dell'osteria con i tavoli apparecchiati e, sotto, il Golfo della Spezia" fetchpriority="high">
+  <div class="wrap">
+    <p class="occhiello">Cucina casalinga · Fabiano Alto</p>
+    <h1 id="titolo">Il golfo lo vedete <em>dal tavolo</em>.</h1>
+    <p class="sotto">Cozze, pesce fresco e primi di mare in un'osteria di famiglia, sopra La Spezia, con la terrazza affacciata sul Golfo dei Poeti. A cena da martedì a domenica.</p>
+    <div class="azioni">
+      <a class="btn" href="#prenota">Prenota un tavolo</a>
+      <a class="btn vetro" href="#piatti">Cosa si mangia</a>
+    </div>
+    <p class="stato" id="stato" aria-live="polite"><span class="punto" aria-hidden="true"></span><span id="stato-t">Mar–Dom, a cena dalle 19:30</span></p>
+  </div>
+</section>
+
+<section class="valori" aria-label="Perché salire fino a Fabiano">
+  <div class="wrap">
+    <ul>
+      <li class="rv"><svg viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M3 24c2.6-1.6 5.2-1.6 7.8 0s5.2 1.6 7.8 0 5.2-1.6 7.8 0 4.6 1.6 4.6 1.6"/><path d="M4 19l7-9 5 6 4-4 10 7"/></svg><div><b>Terrazza sul Golfo dei Poeti</b><span>Si cena all'aperto con tutta La Spezia e il porto sotto di voi.</span></div></li>
+      <li class="rv"><svg viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M17 5c7 3 11 8 11 13 0 6-5 11-11 11S6 24 6 18C6 13 10 8 17 5z"/><path d="M17 5v24M17 12c3 1 5 3 6 6M17 12c-3 1-5 3-6 6"/></svg><div><b>La specialità: le cozze</b><span>Sempre freschissime, insieme al pesce del giorno e ai primi di mare.</span></div></li>
+      <li class="rv"><svg viewBox="0 0 34 34" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M5 15L17 5l12 10v13H5z"/><path d="M13 28v-8h8v8"/></svg><div><b>Osteria di famiglia</b><span>Ambiente semplice, cucina tipica locale e regionale, porzioni abbondanti.</span></div></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sez" id="piatti" aria-labelledby="t-menu">
+  <div class="wrap">
+    <div class="menu-testa">
+      <div>
+        <p class="occhiello rv">I piatti</p>
+        <h2 id="t-menu" class="rv">Pochi piatti, <em>quasi tutti di mare</em>.</h2>
+        <p class="intro rv">Il menù è corto apposta: si cucina quello che arriva fresco. Qui sotto trovate i piatti che i clienti nominano di più nelle recensioni.</p>
+        <p class="etichetta rv">Menù di esempio: lo sostituiamo con il vostro, con i prezzi</p>
+      </div>
+      <aside class="lavagna rv">
+        <small>Quanto si spende</small>
+        <p>«Circa 35 euro a testa»</p>
+        <span>Ilaria O., recensione su Google</span>
+      </aside>
+    </div>
+
+    <div class="schede" role="tablist" aria-label="Sezioni del menù">
+      <button role="tab" id="s-pri" aria-controls="p-pri" aria-selected="true">Primi di mare</button>
+      <button role="tab" id="s-ant" aria-controls="p-ant" aria-selected="false" tabindex="-1">Antipasti</button>
+      <button role="tab" id="s-sec" aria-controls="p-sec" aria-selected="false" tabindex="-1">Secondi</button>
+      <button role="tab" id="s-ter" aria-controls="p-ter" aria-selected="false" tabindex="-1">Anche di terra</button>
+    </div>
+
+    <div class="pannello" role="tabpanel" id="p-pri" aria-labelledby="s-pri" tabindex="0">
+      <ul class="piatti">
+        <li class="piatto"><div class="riga"><h3>Spaghetti alle cozze in bianco <span class="tag c">Consigliato</span></h3><span class="pun"></span><span class="prezzo">prezzo da inserire</span></div><p>Con le cozze, la specialità della casa. <q>Suggerisco assolutamente</q>, scrive una cliente su Tripadvisor.</p></li>
+        <li class="piatto"><div class="riga"><h3>Carbonara di mare</h3><span class="pun"></span><span class="prezzo">prezzo da inserire</span></div><p><q>Molto buona</q>, da una cena di compleanno raccontata su Tripadvisor.</p></li>
+        <li class="piatto"><div class="riga"><h3>Linguine al sugo di scorfano</h3><span class="pun"></span><span class="prezzo">prezzo da inserire</span></div><p><q>Molto saporite</q>, sempre dalla stessa recensione.</p></li>
+        <li class="piatto"><div class="riga"><h3>Linguine con la rana pescatrice</h3><span class="pun"></span><span class="prezzo">prezzo da inserire</span></div><p><q>Molto buone</q>, secondo una cliente su Google.</p></li>
+        <li class="piatto"><div class="riga"><h3>Paccheri ai frutti di mare</h3><span class="pun"></span><span class="prezzo">prezzo da inserire</span></div><p>Citati da un cliente arrivato dalla Svezia, insieme alla vista.</p></li>
+      </ul>
+    </div>
+    <div class="pannello" role="tabpanel" id="p-ant" aria-labelledby="s-ant" tabindex="0" hidden>
+      <ul class="piatti">
+        <li class="piatto"><div class="riga"><h3>Acciughe marinate <span class="tag c">Da provare</span></h3><span class="pun"></span><span class="prezzo">prezzo da inserire</span></div><p>Il classico del golfo. <q>Da provare</q>, consiglia Salvatore T. su Google.</p></li>
+        <li class="piatto"><div class="riga"><h3>Antipasti della casa</h3><span class="pun"></span><span class="prezzo">prezzo da inserire</span></div><p>Semplici e freschi: <q>buoni, freschi e molto economici</q>, dice una recensione su Tripadvisor.</p></li>
+      </ul>
+    </div>
+    <div class="pannello" role="tabpanel" id="p-sec" aria-labelledby="s-sec" tabindex="0" hidden>
+      <ul class="piatti">
+        <li class="piatto"><div class="riga"><h3>Orata arrosto <span class="tag m">Pesce</span></h3><span class="pun"></span><span class="prezzo">prezzo da inserire</span></div><p>Intera, con pomodorini e limone. Un altro dei piatti <q>da provare</q> secondo chi è stato qui.</p></li>
+        <li class="piatto"><div class="riga"><h3>Frittura di mare <span class="tag m">Pesce</span></h3><span class="pun"></span><span class="prezzo">prezzo da inserire</span></div><p><q>Frittura ben fritta</q>, scrive una cliente su Google.</p></li>
+        <li class="piatto"><div class="riga"><h3>Baccalà <span class="tag m">Pesce</span></h3><span class="pun"></span><span class="prezzo">prezzo da inserire</span></div><p>Consigliato insieme agli spaghetti alle cozze in una recensione su Tripadvisor.</p></li>
+      </ul>
+    </div>
+    <div class="pannello" role="tabpanel" id="p-ter" aria-labelledby="s-ter" tabindex="0" hidden>
+      <ul class="piatti">
+        <li class="piatto"><div class="riga"><h3>Ravioli al ragù</h3><span class="pun"></span><span class="prezzo">prezzo da inserire</span></div><p>Per chi a tavola non vuole il pesce.</p></li>
+        <li class="piatto"><div class="riga"><h3>Carne</h3><span class="pun"></span><span class="prezzo">prezzo da inserire</span></div><p><q>Ottima carne</q>, accompagnata da un vino rosso locale, racconta Brunella M. su Google.</p></li>
+      </ul>
+    </div>
+
+    <div class="note-menu">
+      <span><b>Prenotazioni:</b> tutti i giorni, a pranzo e a cena</span>
+      <span><b>Allergie:</b> ditecelo quando prenotate</span>
+      <span><b>Vino:</b> c'è anche il rosso locale</span>
+    </div>
+  </div>
+</section>
+
+<section class="sez terrazza" id="terrazza" aria-labelledby="t-terr">
+  <div class="wrap">
+    <div class="foto-doppia rv">
+      <figure><img src="img/vista-golfo.webp" width="800" height="600" alt="La vista dalla terrazza: le stelle di Natale in primo piano, sotto la città e il Golfo della Spezia" loading="lazy"></figure>
+      <figure><img src="img/sala-interna.webp" width="601" height="450" alt="La sala interna con le tovaglie rosse, gli archi in pietra e l'arazzo alla parete" loading="lazy"></figure>
+    </div>
+    <div>
+      <p class="occhiello rv">La terrazza</p>
+      <h2 id="t-terr" class="rv">D'estate in terrazza, <em>d'inverno in sala</em>.</h2>
+      <p class="intro rv">Siamo a Fabiano Alto, un borgo sulla collina sopra La Spezia, in Via Sant'Andrea. Un'osteria a conduzione familiare: tovaglie rosse, archi in pietra e una terrazza panoramica affacciata sul Golfo dei Poeti, dove si cena anche al tramonto.</p>
+      <blockquote class="rv">«Un posto dove sembra davvero di assaporare la Liguria in tutte le sue sfaccettature: panorama, prodotti locali e cucina semplice ma fatta bene.»<cite>— David B., recensione su Google</cite></blockquote>
+      <div class="numeri rv">
+        <div><b>4,5</b><span>voto medio su PagineGialle</span></div>
+        <div><b>175</b><span>recensioni raccolte</span></div>
+        <div><b>6</b><span>sere a settimana, da martedì a domenica</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sez" aria-labelledby="t-gal">
+  <div class="wrap">
+    <p class="occhiello rv">L'osteria</p>
+    <h2 id="t-gal" class="rv">La vista, i piatti, <em>la sala</em>.</h2>
+    <div class="galleria">
+      <figure class="rv"><img src="img/terrazza.webp" width="799" height="796" alt="Tavoli in terrazza con la vista sul porto della Spezia" loading="lazy"><figcaption>La terrazza</figcaption></figure>
+      <figure class="rv"><img src="img/pasta-cozze.webp" width="599" height="800" alt="Un piatto di pasta con le cozze sulla tovaglia rossa" loading="lazy"><figcaption>Pasta con le cozze</figcaption></figure>
+      <figure class="rv"><img src="img/orata.webp" width="800" height="450" alt="Orata arrosto con pomodorini e limone" loading="lazy"><figcaption>Orata arrosto</figcaption></figure>
+      <figure class="rv"><img src="img/frittura.webp" width="599" height="800" alt="Frittura di calamari su carta paglia" loading="lazy"><figcaption>Frittura</figcaption></figure>
+      <figure class="rv"><img src="img/gamberi.webp" width="800" height="450" alt="Gamberoni alla griglia con limone" loading="lazy"><figcaption>Gamberi</figcaption></figure>
+      <figure class="rv"><img src="img/primo-di-mare.webp" width="800" height="600" alt="Un primo di mare con pasta larga e prezzemolo" loading="lazy"><figcaption>Primo di mare</figcaption></figure>
+      <figure class="rv"><img src="img/sala.webp" width="500" height="500" alt="La sala con le tovaglie bianche e rosse e il pavimento in cotto" loading="lazy"><figcaption>La sala</figcaption></figure>
+      <figure class="rv"><img src="img/torta-cioccolato.webp" width="599" height="800" alt="Una fetta di torta al cioccolato con scaglie" loading="lazy"><figcaption>I dolci</figcaption></figure>
+      <figure class="rv"><img src="img/dolce-cucchiaio.webp" width="599" height="800" alt="Un dolce al cucchiaio con i mirtilli" loading="lazy"><figcaption>Al cucchiaio</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="sez" id="recensioni" aria-labelledby="t-rec" style="padding-top:0">
+  <div class="wrap">
+    <p class="occhiello rv">Dicono di noi</p>
+    <h2 id="t-rec" class="rv">La vista porta su, <em>la cucina fa tornare</em>.</h2>
+    <div class="voto rv">
+      <span class="num">4,5</span>
+      <div><div class="stelle" role="img" aria-label="4,5 stelle su 5"><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.6 6.1.7-4.5 4.2 1.2 6L10 15l-5.4 3 1.2-6L1.3 7.8l6.1-.7z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.6 6.1.7-4.5 4.2 1.2 6L10 15l-5.4 3 1.2-6L1.3 7.8l6.1-.7z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.6 6.1.7-4.5 4.2 1.2 6L10 15l-5.4 3 1.2-6L1.3 7.8l6.1-.7z"/></svg><svg viewBox="0 0 20 20" fill="currentColor"><path d="M10 1.5l2.6 5.6 6.1.7-4.5 4.2 1.2 6L10 15l-5.4 3 1.2-6L1.3 7.8l6.1-.7z"/></svg><svg viewBox="0 0 20 20"><defs><linearGradient id="meta"><stop offset="50%" stop-color="currentColor"/><stop offset="50%" stop-color="currentColor" stop-opacity=".25"/></linearGradient></defs><path fill="url(#meta)" d="M10 1.5l2.6 5.6 6.1.7-4.5 4.2 1.2 6L10 15l-5.4 3 1.2-6L1.3 7.8l6.1-.7z"/></svg></div>
+      <small>175 recensioni su PagineGialle, da Google e Tripadvisor</small></div>
+    </div>
+    <ul class="temi rv" aria-label="Cosa ripetono i clienti">
+      <li><b>Vista</b> sul golfo</li><li><b>Porzioni</b> abbondanti</li><li><b>Prezzi</b> onesti</li><li><b>Titolare</b> gentile</li>
+    </ul>
+    <div class="recensioni">
+      <figure class="rec rv">
+        <span class="fonte">Google</span>
+        <blockquote>«Cucina ottima, pesce fresco, ottima vista sul Golfo della Spezia. Accoglienza e rapporto qualità prezzo al top. Da provare le acciughe marinate e l'orata arrosto.»</blockquote>
+        <footer><span class="iniz" style="background:#8E1F27" aria-hidden="true">ST</span><span><b>Salvatore T.</b>Recensione su Google</span></footer>
+      </figure>
+      <figure class="rec rv">
+        <span class="fonte">Tripadvisor</span>
+        <blockquote>«Ho festeggiato qui con un gruppo di amiche i miei 60 anni. Bellissima location con un panorama stupendo. Ottimo cibo e personale ai tavoli presenti ed educati.»</blockquote>
+        <footer><span class="iniz" style="background:#2B5C77" aria-hidden="true">NG</span><span><b>Nicoletta G.</b>Festa di compleanno</span></footer>
+      </figure>
+      <figure class="rec rv">
+        <span class="fonte">Google</span>
+        <blockquote>«Ristorante situato a 10 minuti di auto da La Spezia. Si gode di una vista bellissima su tutto il golfo. Il cibo è ottimo, con porzioni super abbondanti. Proprietario super gentile.»</blockquote>
+        <footer><span class="iniz" style="background:#8a6418" aria-hidden="true">MO</span><span><b>Mario O.</b>Recensione su Google</span></footer>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="sez prenota scuro" id="prenota" aria-labelledby="t-pren">
+  <div class="prenota-foto" aria-hidden="true"><img src="img/vista-golfo.webp" alt="" loading="lazy"></div>
+  <div class="wrap">
+    <div>
+      <p class="occhiello rv">Prenota</p>
+      <h2 id="t-pren" class="rv">Vi teniamo un tavolo <em>in terrazza</em>.</h2>
+      <p class="intro rv">Scegliete giorno, ora e quante persone siete: il messaggio parte su WhatsApp già scritto e vi rispondiamo noi. Per la sera stessa conviene chiamare.</p>
+      <ul class="contatti rv">
+        <li><a href="tel:+390187736135"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A17 17 0 0 1 3 5a2 2 0 0 1 2-2"/></svg><span>0187 736135<small>Chiamate l'osteria</small></span></a></li>
+        <li><a href="https://wa.me/393292030553?text=Buonasera%2C%20vorrei%20prenotare%20un%20tavolo%20all%27Osteria%20delle%20Spezie." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 20l1.2-4.1A8 8 0 1 1 8.2 19z"/></svg><span>329 2030553<small>Cellulare e WhatsApp</small></span></a></li>
+      </ul>
+    </div>
+    <form class="modulo rv" id="modulo" novalidate>
+      <h3>Prenota un tavolo</h3>
+      <div class="campi">
+        <div class="campo"><label for="f-data">Giorno</label><input type="date" id="f-data" name="data" required></div>
+        <div class="campo"><label for="f-ora">Ora</label><select id="f-ora" name="ora" required></select></div>
+        <fieldset class="campo largo persone">
+          <legend>Persone</legend>
+          <div class="scelte">
+          <label><input type="radio" name="persone" value="1"><span>1</span></label>
+          <label><input type="radio" name="persone" value="2" checked><span>2</span></label>
+          <label><input type="radio" name="persone" value="3"><span>3</span></label>
+          <label><input type="radio" name="persone" value="4"><span>4</span></label>
+          <label><input type="radio" name="persone" value="5"><span>5</span></label>
+          <label><input type="radio" name="persone" value="6"><span>6</span></label>
+          <label><input type="radio" name="persone" value="7 o più"><span>7+</span></label>
+          </div>
+        </fieldset>
+        <div class="campo"><label for="f-nome">Nome</label><input type="text" id="f-nome" name="nome" autocomplete="name" required></div>
+        <div class="campo"><label for="f-dove">Dove</label><select id="f-dove" name="dove"><option>Terrazza, se possibile</option><option>In sala</option><option>Indifferente</option></select></div>
+        <div class="campo largo"><label for="f-note">Note (facoltativo)</label><textarea id="f-note" name="note" placeholder="Allergie, seggiolone, compleanno…"></textarea></div>
+      </div>
+      <button class="btn" type="submit"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 20l1.2-4.1A8 8 0 1 1 8.2 19z"/></svg>Invia su WhatsApp</button>
+      <p class="errore" id="errore" aria-live="polite"></p>
+      <p class="info">Nessun pagamento. La prenotazione è confermata quando vi rispondiamo.</p>
+    </form>
+  </div>
+</section>
+
+<section class="gruppi" aria-labelledby="t-gru">
+  <div class="wrap">
+    <div>
+      <h2 id="t-gru" class="rv">Compleanni, comunioni, <em>matrimoni</em>.</h2>
+      <p class="rv">Prepariamo menù per cerimonie, comunioni e compleanni, e il locale ospita anche matrimoni ed eventi. Diteci quanti siete e che data avete in mente.</p>
+      <ul class="rv"><li>Menù per compleanni</li><li>Menù per cerimonie</li><li>Menù per comunioni</li><li>Matrimoni ed eventi</li></ul>
+    </div>
+    <a class="btn vuoto rv" href="https://wa.me/393292030553?text=Buongiorno%2C%20vorrei%20informazioni%20su%20un%20menu%20per%20una%20festa%20all%27Osteria%20delle%20Spezie." target="_blank" rel="noopener">Chiedi il menù per la festa</a>
+  </div>
+</section>
+
+<section class="sez dove" id="dove" aria-labelledby="t-dove">
+  <div class="wrap">
+    <div>
+      <p class="occhiello rv">Orari e dove</p>
+      <h2 id="t-dove" class="rv">Ci trovate <em>a Fabiano Alto</em>.</h2>
+      <ul class="orari rv" id="ore">
+        <li data-g="1"><span>Lunedì</span><span>Chiuso</span></li>
+        <li data-g="2" data-o="19:30-22:30"><span>Martedì</span><span>19:30–22:30</span></li>
+        <li data-g="3" data-o="19:30-22:30"><span>Mercoledì</span><span>19:30–22:30</span></li>
+        <li data-g="4" data-o="19:30-22:30"><span>Giovedì</span><span>19:30–22:30</span></li>
+        <li data-g="5" data-o="19:30-22:30"><span>Venerdì</span><span>19:30–22:30</span></li>
+        <li data-g="6" data-o="19:30-22:30"><span>Sabato</span><span>19:30–22:30</span></li>
+        <li data-g="0" data-o="19:30-22:30"><span>Domenica</span><span>19:30–22:30</span></li>
+      </ul>
+      <p class="nota">Per il pranzo e per le feste si prenota: chiamateci e ci organizziamo.</p>
+      <ul class="come rv">
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M5 17h14l-1.5-6.5A2 2 0 0 0 15.6 9H8.4a2 2 0 0 0-1.9 1.5z"/><circle cx="8" cy="17" r="2"/><circle cx="16" cy="17" r="2"/></svg><span><b>In auto:</b> una decina di minuti dalla città, salendo verso Fabiano. A cinque minuti dallo stadio e dal centro storico.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M4 18h16M6 18V8l6-4 6 4v10"/><path d="M10 18v-5h4v5"/></svg><span><b>Parcheggio:</b> lungo la strada. In settimana si trova facilmente, nel fine settimana conviene arrivare con un po' di anticipo.</span></li>
+        <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span><b>A piedi:</b> dalla stazione centrale sono circa 45 minuti in salita. C'è anche l'autobus.</span></li>
+      </ul>
+    </div>
+    <div class="mappa rv" id="mappa">
+      <img src="img/sala-interna.webp" width="601" height="450" alt="La sala dell'Osteria delle Spezie" loading="lazy">
+      <div class="box">
+        <address>Via Sant'Andrea 57<br>19123 Fabiano Alto (SP)</address>
+        <p>Sulla collina sopra La Spezia, con vista sul golfo.</p>
+        <div class="bottoni">
+          <button class="btn chiaro" type="button" id="apri-mappa"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M9 4L3 6v14l6-2 6 2 6-2V4l-6 2z"/><path d="M9 4v14M15 6v14"/></svg>Mostra la mappa</button>
+          <a class="btn vetro" href="https://www.google.com/maps/dir/?api=1&amp;destination=44.09508,9.80614" target="_blank" rel="noopener">Indicazioni</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="piede">
+  <div class="wrap">
+    <div>
+      <a class="logo" href="#" aria-label="Osteria delle Spezie, torna su">
+        <svg viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="20" cy="20" r="18.5"/><path d="M8 25c2.4-1.5 4.8-1.5 7.2 0s4.8 1.5 7.2 0 4.8-1.5 7.2 0 2.4 1.2 2.4 1.2"/><path d="M9 21l6-8 4 5 3-3 9 6"/><circle cx="27" cy="12" r="2"/></svg>
+        <span><b>Osteria delle Spezie</b><small>Cucina casalinga</small></span>
+      </a>
+      <p style="margin-top:16px;max-width:26em">Osteria di famiglia a Fabiano Alto. Cozze, pesce e una terrazza sul Golfo dei Poeti.</p>
+      <div class="social">
+        <a href="https://www.facebook.com/Osteria-delle-Spezie-1402152920021262/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M14 8h3V4h-3a4 4 0 0 0-4 4v3H7v4h3v6h4v-6h3l1-4h-4V8z"/></svg></a>
+      </div>
+    </div>
+    <div>
+      <h3>Contatti</h3>
+      <ul>
+        <li><a href="tel:+390187736135">0187 736135</a></li>
+        <li><a href="tel:+393292030553">329 2030553</a></li>
+        <li><a href="https://wa.me/393292030553" target="_blank" rel="noopener">WhatsApp</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Orari</h3>
+      <ul>
+        <li><span>Mar–Dom 19:30–22:30</span></li>
+        <li><span>Lunedì chiuso</span></li>
+        <li><span>Pranzo su prenotazione</span></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Pagina</h3>
+      <ul>
+        <li><a href="#piatti">I piatti</a></li>
+        <li><a href="#prenota">Prenota un tavolo</a></li>
+        <li><a href="#dove">Come arrivare</a></li>
+      </ul>
+    </div>
+    <p class="fine"><span>Osteria delle Spezie · Via Sant'Andrea 57, 19123 Fabiano Alto (SP) · P.IVA 01168160115</span><span>Foto: Osteria delle Spezie</span><span>Bozza di La bottega del web</span></p>
+  </div>
+</footer>
+
+<nav class="rapida" id="rapida" aria-label="Azioni rapide">
+  <a href="tel:+390187736135"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A17 17 0 0 1 3 5a2 2 0 0 1 2-2"/></svg>Chiama</a>
+  <a class="pri" href="#prenota"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2"/><path d="M3.5 10h17M8 3v4M16 3v4"/></svg>Prenota</a>
+  <a href="https://wa.me/393292030553?text=Buonasera%2C%20vorrei%20prenotare%20un%20tavolo%20all%27Osteria%20delle%20Spezie." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 20l1.2-4.1A8 8 0 1 1 8.2 19z"/></svg>WhatsApp</a>
+</nav>
+
+<script>
+(function(){
+  var WA="393292030553",LOC="Osteria delle Spezie";
+  var ora=new Date(),g=ora.getDay(),min=ora.getHours()*60+ora.getMinutes();
+  var nomi=["domenica","lunedì","martedì","mercoledì","giovedì","venerdì","sabato"];
+  function m(s){var p=s.split(":");return +p[0]*60+ +p[1]}
+  function fasce(giorno){var li=document.querySelector('#ore li[data-g="'+giorno+'"]'),o=li&&li.getAttribute("data-o");
+    return o?o.split(",").map(function(f){var x=f.split("-");return [m(x[0]),m(x[1]),x[0],x[1]]}):[]}
+
+  /* orari: riga di oggi + stato aperto/chiuso */
+  var li=document.querySelector('#ore li[data-g="'+g+'"]');if(li)li.className="oggi-r";
+  var st=document.getElementById("stato"),tx=document.getElementById("stato-t"),oggi=fasce(g),msg=null;
+  for(var i=0;i<oggi.length;i++){
+    if(min>=oggi[i][0]&&min<oggi[i][1]){st.classList.add("aperto");msg="<b>Aperto ora</b> · cucina fino alle "+oggi[i][3];break}
+    if(min<oggi[i][0]){st.classList.add("chiuso");msg="<b>Chiuso ora</b> · apre stasera alle "+oggi[i][2];break}
+  }
+  if(!msg){for(var d=1;d<=7;d++){var gg=(g+d)%7,f=fasce(gg);if(f.length){st.classList.add("chiuso");
+    msg="<b>Chiuso ora</b> · riapre "+(d===1?"domani":nomi[gg])+" alle "+f[0][2];break}}}
+  if(msg)tx.innerHTML=msg;
+
+  /* schede del menù */
+  var tabs=[].slice.call(document.querySelectorAll('[role="tab"]'));
+  function sel(t,foc){tabs.forEach(function(x){var on=x===t;x.setAttribute("aria-selected",on);x.tabIndex=on?0:-1;
+    document.getElementById(x.getAttribute("aria-controls")).hidden=!on});if(foc)t.focus()}
+  tabs.forEach(function(t,i){t.addEventListener("click",function(){sel(t)});
+    t.addEventListener("keydown",function(e){var n=null;if(e.key==="ArrowRight")n=tabs[(i+1)%tabs.length];
+      if(e.key==="ArrowLeft")n=tabs[(i-1+tabs.length)%tabs.length];if(e.key==="Home")n=tabs[0];if(e.key==="End")n=tabs[tabs.length-1];
+      if(n){e.preventDefault();sel(n,true)}})});
+
+  /* modulo: giorni e orari validi */
+  var fd=document.getElementById("f-data"),fo=document.getElementById("f-ora");
+  function iso(d){return d.getFullYear()+"-"+("0"+(d.getMonth()+1)).slice(-2)+"-"+("0"+d.getDate()).slice(-2)}
+  var primo=new Date();if(fasce(primo.getDay()).length&&min>m("21:00"))primo.setDate(primo.getDate()+1);
+  while(!fasce(primo.getDay()).length)primo.setDate(primo.getDate()+1);
+  fd.min=iso(new Date());fd.value=iso(primo);
+  function orari(){var d=fd.value?new Date(fd.value+"T12:00"):primo,f=fasce(d.getDay());fo.innerHTML="";
+    if(!f.length){fo.innerHTML="<option value=''>Lunedì siamo chiusi</option>";return}
+    var stesso=iso(d)===iso(new Date());
+    f.forEach(function(x){for(var t=x[0];t<=x[1]-60;t+=30){if(stesso&&t<=min+30)continue;var o=document.createElement("option");
+        o.textContent=("0"+Math.floor(t/60)).slice(-2)+":"+("0"+t%60).slice(-2);fo.appendChild(o)}});
+    if(!fo.options.length)fo.innerHTML="<option value=''>Per stasera chiamateci</option>";
+    else if([].some.call(fo.options,function(o){return o.value==="20:00"}))fo.value="20:00"}
+  fd.addEventListener("change",orari);orari();
+  function dataIt(s){var d=new Date(s+"T12:00");return nomi[d.getDay()]+" "+d.getDate()+"/"+(d.getMonth()+1)}
+  document.getElementById("modulo").addEventListener("submit",function(e){e.preventDefault();
+    var er=document.getElementById("errore"),nome=this.nome.value.trim();
+    if(!fo.value){er.textContent="Scegliete un giorno in cui siamo aperti, o chiamateci.";return}
+    if(!nome){er.textContent="Scrivete il vostro nome, così sappiamo chi siete.";this.nome.focus();return}
+    er.textContent="";
+    var p=this.querySelector('input[name="persone"]:checked').value,note=this.note.value.trim();
+    var t="Buonasera, sono "+nome+". Vorrei prenotare un tavolo all'"+LOC+" per "+dataIt(fd.value)+" alle "+fo.value+", "+p+(p==="1"?" persona":" persone")+". Preferenza: "+this.dove.value.toLowerCase()+"."+(note?" Note: "+note:"");
+    window.open("https://wa.me/"+WA+"?text="+encodeURIComponent(t),"_blank","noopener")});
+
+  /* mappa caricata solo su richiesta */
+  document.getElementById("apri-mappa").addEventListener("click",function(){var f=document.createElement("iframe");
+    f.title="Mappa: Osteria delle Spezie, Fabiano Alto";f.loading="lazy";f.referrerPolicy="no-referrer-when-downgrade";
+    f.src="https://www.google.com/maps?q=44.09508,9.80614&z=15&output=embed";document.getElementById("mappa").appendChild(f)});
+
+  /* barra rapida su telefono, dopo l'hero */
+  var r=document.getElementById("rapida"),h=document.querySelector(".hero");
+  if("IntersectionObserver" in window){new IntersectionObserver(function(es){r.classList.toggle("su",!es[0].isIntersecting)},{threshold:.15}).observe(h)}else r.classList.add("su");
+
+  /* comparsa allo scorrimento */
+  var rv=document.querySelectorAll(".rv");
+  if(!("IntersectionObserver" in window)){for(var j=0;j<rv.length;j++)rv[j].classList.add("in");return}
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{rootMargin:"0px 0px -6% 0px"});
+  for(var k=0;k<rv.length;k++)io.observe(rv[k]);
+})();
+</script>
+</body>
+</html>
